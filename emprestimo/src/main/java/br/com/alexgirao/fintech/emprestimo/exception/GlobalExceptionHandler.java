@@ -50,7 +50,7 @@ public class GlobalExceptionHandler {
         return new ResponseEntity<>(errorDetails, HttpStatus.BAD_REQUEST);
     }
 
-    /*@ExceptionHandler(MethodArgumentNotValidException.class)
+    @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<?> methodArgumentNotValidException(
             MethodArgumentNotValidException ex, HttpServletRequest request){
 
@@ -67,6 +67,6 @@ public class GlobalExceptionHandler {
                         .errorFields(fields)
                         .build();
         return new ResponseEntity<>(errorDetails, HttpStatus.BAD_REQUEST);
-    }*/
+    }
 
 }

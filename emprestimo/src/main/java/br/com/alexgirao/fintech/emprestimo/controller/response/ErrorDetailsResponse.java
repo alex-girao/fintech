@@ -1,6 +1,6 @@
 package br.com.alexgirao.fintech.emprestimo.controller.response;
 
-//import br.com.alexgirao.fintech.emprestimo.exception.FieldMessage;
+import br.com.alexgirao.fintech.emprestimo.exception.FieldMessage;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -18,6 +18,6 @@ public class ErrorDetailsResponse {
     private LocalDateTime timestamp;
     private String message;
     private String details;
-    //private List<FieldMessage> errorFields;
+    private List<FieldMessage> errorFields;
 
 }
