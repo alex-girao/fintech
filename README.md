@@ -149,4 +149,3 @@ PUT /emprestimos:id/pagar
 ```bash
 http://localhost:8081/emprestimos/1/pagar
 ```
-```
